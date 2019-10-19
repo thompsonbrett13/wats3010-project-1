@@ -17,52 +17,52 @@
         <h2>Places I've Been and Want to Share</h2>
     </header>
     <nav>
-        <div>
-            <ul>
-                <li><a href="">Home</a></li>
+        <div class="nav-left">
+            <ul class="page-links">
+                <li><a class="active" href="">Home</a></li>
                 <li><a href="#recent-blogs">Recent Blogs</a></li>
                 <li><a href="#news-about">About</a></li>
             </ul>
         </div>
-        <div>
-            <ul>
+        <div class="nav-right">
+            <ul class="social-links">
                 <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
                 <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
                 <li><a href="https://www.github.com/thompsonbrett13" target="_blank">GitHub</a></li>
             </ul>
         </div>
     </nav>
-    <figure>
+    <figure class="big-image">
         <img src="images/backlit-clouds-dark-831x200.jpg" alt="Remarkable Place">
         <figcaption>Remarkable Place</figcaption>
     </figure>
     <main>
-        <section id="recent-blogs">
+        <section class="table" id="recent-blogs">
             <h3>Recent Blogs</h3>
-            <div>
-                <div><img src="images/hudson-river-valley.jpg" alt="Hudson River Valley">
+            <div class="row">
+                <div class="col"><img class="wrapped" src="images/hudson-river-valley.jpg" alt="Hudson River Valley">
                     <p>This is the Hudson River Valley in New York. Vinyl humblebrag tumeric neutra selfies photo booth
                         waistcoat kinfolk prism poke banh mi. Selvage gastropub flannel tumblr air plant coloring book,
                         distillery keytar asymmetrical truffaut echo park semiotics vinyl.
                     </p>
                 </div>
-                <div><img src="images/fort-point-100x100.jpg" alt="Fort Point">
+                <div class="col"><img class="wrapped" src="images/fort-point-100x100.jpg" alt="Fort Point">
                     <p>Fort Point in San Francisco is a historic site. Vinyl humblebrag tumeric neutra selfies photo
                         booth waistcoat kinfolk prism poke banh mi. Selvage gastropub flannel tumblr air plant coloring
                         book, distillery keytar asymmetrical truffaut echo park semiotics vinyl.
                     </p>
                 </div>
-                <div><img src="images/prince-william-forest.jpg" alt="Prince William Forest">
+                <div class="col"><img class="wrapped" src="images/prince-william-forest.jpg" alt="Prince William Forest">
                     <p>Prince William Forest is the located in Washington DC. Vinyl humblebrag tumeric neutra selfies
                         photo booth waistcoat kinfolk prism poke banh mi. Selvage gastropub flannel tumblr air plant
                         coloring book, distillery keytar asymmetrical truffaut echo park semiotics vinyl.</p>
                 </div>
             </div>
         </section>
-        <section id="news-about">
+        <section class="table" id="news-about">
             <h3>About</h3>
-            <div>
-                <div>
+            <div class="row">
+                <div class="col">
                     <h4>News</h4>
                     <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring
                         which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot,
@@ -79,19 +79,19 @@
                         insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and
                         the breath.</p>
                 </div>
-                <div>
+                <div class="col">
                     <h4>About</h4>
                     <p>We are interested in providing information that inspires and enhances your travel experiences.
                     </p>
-                <div><button>Click to Find Out More</button></div>
+                <div class="cta"><button class="cta-button">Click to Find Out More</button></div>
                 </div>
             </div>
 
         </section>
     </main>
     <footer>
-        <div>Copyright &copy; 2019-20</div>
-        <div>Brett Thompson</div>
+        <div class="footer-left">Copyright &copy; 2019-20</div>
+        <div class="footer-right">Brett Thompson</div>
     </footer>
 
 </body>
